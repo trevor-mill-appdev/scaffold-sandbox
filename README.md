@@ -1,24 +1,9 @@
-# README
+# Scaffold Sandbox
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Try the `scaffold` generator:
 
-Things you may want to cover:
+```
+rails generate scaffold movie title:string description:text
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Examine the output closely. Try generating another scaffold with differing column datatypes. Ask lots of questions.
