@@ -8,13 +8,9 @@ Try the `scaffold` generator:
 rails generate scaffold movie title:string description:text
 ```
 
-For comparison, you can generate a `draft:resource`:
+[Compare the output with the `draft:resource` generator's output.](https://github.com/raghubetina/movie-resource/pull/1/files)
 
-```
-rails generate draft:resource book title:string description:text
-```
-
-Compare the output of each generator. Do you understand every line of `scaffold`? Ask lots of questions.
+Do you understand every line of `scaffold`? Ask lots of questions.
 
 ## Devise
 
